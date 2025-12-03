@@ -12,5 +12,11 @@ public class Snacks {
         conto_1.deposit(120);
         conto_1.withdraw(21);
         System.out.println(conto_1.getCensID() + ": $" + conto_1.getSaldo());
+
+        Studente student_2 = new Studente("Christopher", "Pisano", 35);
+        RegistroStudenti register = new RegistroStudenti();
+        register.addStudent(student_1);
+        register.addStudent(student_2);
+        register.printStudents();
     }
 }
