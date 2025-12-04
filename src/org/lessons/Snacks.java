@@ -18,5 +18,12 @@ public class Snacks {
         register.addStudent(student_1);
         register.addStudent(student_2);
         register.printStudents();
+
+        RegStudArray registroArr = new RegStudArray();
+        registroArr.setRegistro(new Studente[3]);
+        registroArr.addStudente(student_1);
+        registroArr.addStudente(student_2);
+
+        System.out.println(registroArr.toString());
     }
 }

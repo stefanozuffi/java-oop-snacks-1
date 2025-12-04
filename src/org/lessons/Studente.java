@@ -12,6 +12,6 @@ public class Studente {
     }
 
     public String getAll() {
-        return name + " " + surname + ", " + age + " years old";
+        return this.name + " " + this.surname + ", " + this.age + " years old";
     }
 }
